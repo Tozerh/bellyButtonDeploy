@@ -115,7 +115,7 @@ function init() {
            color: bubbleValues,
            colorscale: "Portland" 
          }
-      }\
+      }
     ];
     
       // 2. Create the layout for the bubble chart.
