@@ -59,7 +59,7 @@ function init() {
   // 1. Create the buildCharts function.
   function buildCharts(sample) {
     // 2. Use d3.json to load and retrieve the samples.json file 
-    d3.json("JS/data/samples.json").then((data) => {
+    d3.json("js/data/samples.json").then((data) => {
 
       // 3. Create a variable that holds the samples array. 
       var samples = data.samples;
@@ -95,7 +95,7 @@ function init() {
       }];
       // 9. Create the layout for the bar chart. 
       var barLayout = {
-       title: "Top 10 Bacteria Cultures Found"
+       title: "Top 10 Cultures Found"
       };
       // 10. Use Plotly to plot the data with the layout. 
       Plotly.newPlot("bar", barData, barLayout);
